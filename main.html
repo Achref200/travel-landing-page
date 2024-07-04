@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>WoTravel</title>  
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+   
+
+    <header>
+        
+        <a href="#" class="logo"><i class="fas fa-plane"></i>WoTravel.</a>
+      
+        <nav class="navbar">
+          <a class="active" href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#Destination">destination</a>
+          <a href="#blog">blog</a>
+          <a href="#review">review</a>
+          <a href="#Contact">contact</a>
+
+          <button class="secbtn" id="sign">Sign</button>
+          <button class="pribtn" id="log">Login</button>
+          
+        </nav>
+    
+      </header> 
+      
+      <div id="modal" class="container">
+      <form id="form" >
+    
+            <h1 class="form__title">Create Account</h1>
+            
+            <div class="form__input-group">
+                <input type="text" id="signupUsername" class="form__input"  placeholder="Username" name="username">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="text" class="form__input"  placeholder="Email Address" name="email">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input"  placeholder="Password" name="password_1">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input"  placeholder="Confirm password" name="password_2">
+                <div class="form__input-error-message"></div>
+            </div>
+            <button class="btn" id="close">Continue</button>
+            <p class="form__text">
+                <a >Already have an account? Sign in</a>
+            </p>
+        </form>
+    </div>
+      
+    
+
+        <div id="modal2" class="container">
+        <form id="form" >
+      
+              <h1 class="form__title">Create Account</h1>
+              
+              <div class="form__input-group">
+                  <input type="text" id="signupUsername" class="form__input"  placeholder="Username" name="username">
+                  <div class="form__input-error-message"></div>
+              </div>
+              
+              <div class="form__input-group">
+                  <input type="password" class="form__input"  placeholder="Password" name="password_1">
+                  <div class="form__input-error-message"></div>
+              </div>
+              
+              <button class="btn" id="close"> Start </button>
+              <p class="form__text">
+                  <a > Don't have an account? Sign up</a>
+              </p>
+          </form>
+      </div>
+
+      
+
+<!-- <div class="icons">
+     <i class="fas fa-search" id="search-icon"></i>  
+    </div> -->
+<!-- <form action="" id="search-form">
+ <input type="search" placeholder="search here .." name="" id="search-box">
+ <label for="search-box" class="fas fa-search"></label>
+ <i class="fas fa-times" id="close"></i>
+
+</form> -->
+
+
+
+<section class="home" id="home">
+
+
+                <div class="centered">
+                    <div class="content">
+                        <img src="images/home.png" alt="" style="width: max-content;" class="image1"> 
+                        <div class="gradient-overlay"></div>
+                        <div class="text">
+                            <h3>Get started your exciting journey with us.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                            <a href="#" class="btn">Let's get started</a>
+                        </div>
+                    </div>
+                </div>
+                   
+        
+
+</section>
+
+
+
+
+    <section class="about" id="about" style="background-color: #F7F8FC;">
+
+        <h3 class="sub-heading"> About Us </h3>
+        <h1 class="heading"> Why choose us ? </h1>
+
+                    <div class="row">
+                        <div class="image">
+                            <img src="images/Journey-bro.svg" alt="">
+                    </div>
+            
+                    <div class="content">   
+                        <h3> best travel agency in the country </h3>    
+                        <div class="icons-container">
+
+
+                    <div class="icons">
+                        
+                        <h3> Booking Your Dream Destination  </h3>
+                    </div>
+
+                        <div class="icons">
+                            <h3> Best Prices  </h3>
+                            
+                        </div>
+
+                        <div class="icons">
+                            <h3> Exciting Travel </h3>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">learn more </a>
+                </div>
+
+        </div>   
+    </section>
+
+
+    <section class="Destination" id="Destination">
+
+                <h3 class="sub-heading"> Our distination </h3>
+                <h3 class="heading"> Our Latest destinations  </h3>
+                <div class="box-container">
+
+
+
+                <div class="box">
+                    <a href="#" class="fas fa-next"></a>
+                    <a href="#" class="fas fa-previous"></a>
+                    <img src="images/image1.png" alt="">
+                <h3> Natural View  </H3>
+                    <p>must-see nature attractions in Norway. The glaciers, mountains, and waterfalls showcase raw, sublime power.</p>   
+                <a href="#" class="btn">Book now ! </a>
+                </div>
+            
+    
+    </section>
+
+
+    <section class="blog" id="blog"> 
+        
+                <h3 class="sub-heading"> Our blog </h3>
+                <h1 class="heading"> Our Latest destinations  </h1>
+                <div class="box-container">
+                    <div class="image">
+                        <img src="images/Component 11.png" alt="">
+                        <h3> must-see nature attractions in Norway. The glaciers, mountains, and waterfalls showcase raw, sublime power.  </H3>
+                </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <section class="review" id="review">
+
+        <h3 class="sub-heading"> Customers review  </h3>
+        <h1 class="heading"> what they say </h1>
+
+
+        <div class=" swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/achref.png" alt="">
+                        <div class="user-info">
+                            <h3> Achref Ben Yaagoub</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            
+                            </div>  
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit.Sit natus dolor cumque?   
+                    </p>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/miniar.png" alt="">
+                        <div class="user-info">
+                            <h3> miniar Elabed </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            
+                            
+                            </div>  
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit.Sit natus dolor cumque?   
+                    </p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/thabet.png" alt="">
+                        <div class="user-info">
+                            <h3> Mohamed Thabet charly </h3>
+                            <div class="stars">
+                            
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>  
+                        </div>
+                    </div>
+                    <p>
+                        , consectetur adipiscing elit. Pellentesque nec sagittis orci, vel lacinia nisi. Donec 
+                        tempor pretium ipsum sed suscipit. Nullam sed nulla ege
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/younes.png" alt="">
+                        <div class="user-info">
+                            <h3> Younes Yahia </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            
+                            </div>  
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit.Sit natus dolor cumque?   
+                    </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/malek.png" alt="">
+                        <div class="user-info">
+                            <h3> Malek zag  </h3>
+                            <div class="stars">
+                
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>  
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit.Sit natus dolor cumque?   
+                    </p>
+                </div>
+
+
+                
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/imen.png" alt="">
+                        <div class="user-info">
+                            <h3> Imen laadheri </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            
+                            </div>  
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit.Sit natus dolor cumque?   
+                    </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/lahib.png" alt="">
+                        <div class="user-info">
+                            <h3> LAHIB RINDA </h3>
+                            <div class="stars">
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>  
+                        </div>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit.Sit natus dolor cumque?   
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+      <section class="Contact" id="Contact">
+
+        <h3 class="sub-heading"> Lets Get In touch </h3>
+        <h1 class="heading"> Feel free </h1>
+  
+        <form action="">
+           
+            <div class="inputBox">
+                <div class="input">
+                    <span> your full name </span>
+                    <input type="text" placeholder="enter your full name ">
+                </div>
+               
+            </div>
+          
+            <div class="inputBox">
+
+                <div class="input">
+                    <span> your email  </span>
+                    <input type="email" placeholder="enter your email ">
+                </div>
+            </div>
+
+            <div class="inputBox">
+
+                <div class="input">
+                    <span> your message  </span>
+                    <textarea name="" placeholder="enter your massege " id=""
+                    cols="30" rows="10"> </textarea>
+                </div>
+            </div>
+
+          <center>  <input type="submit" value="Contact now " class="btn">
+          </center>
+        </form>
+
+    </section>
+
+   
+    <section class="footer">
+
+    <div class="box-container">
+
+            <div class="box">
+                <h3> localisation </h3>
+                <a href="#">sousse</a>
+                <a href="#">monastir</a>
+                <a href="#">djerba</a>
+                <a href="#">ariana</a>
+                <a href="#">mahdia</a>
+
+            
+            </div>
+    
+
+    <div class="box">
+                <h3> quick links </h3>
+                <a href="#">home</a>
+                <a href="#">About</a>
+                <a href="#">Destination</a>
+                <a href="#">Blog</a>
+                <a href="#">Review</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="box">
+                <h3> contact info  </h3>
+                <a href="#">+216 55 555 555</a>
+                <a href="#">+216 73 322 333</a>
+                <a href="#">flenfouleni@gmail.com</a>
+                <a href="#">Hammem sousse , Sahloul 1111</a>
+
+            
+            </div>
+
+            <div class="box">
+                <h3> follow us   </h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">Linkedin </a>
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202.16048832946612!2d10.5942806!3d35.8350781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd8af4529f71b7%3A0x5bfb38f60b464186!2sPlanet%20Food!5e0!3m2!1sen!2stn!4v1645130964858!5m2!1sen!2stn" width="400" height="300" style="border:0;" allowfullscreen="" 
+            loading="lazy"></iframe>
+    
+        </div>
+        <div class="credit"> copyright @2024 by <span> UX Product Designer Achref Ben Yaagoub </span></div>
+    </section>
+
+
+
+
+<script>
+    
+function modalsign (){
+    const modal = document.getElementById('modal2');
+    const openModalBtn = document.getElementById('sign');
+    
+    const closeBtn = document.getElementById('close');
+    openModalBtn.addEventListener('click', function() {
+        modal.style.display = 'block';
+        console.log('Modal opened');
+    });
+    
+    closeBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+    
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+  }
+  modalsign();
+  
+
+  function modallog (){
+    const modal = document.getElementById('modal');
+    const openModalBtn = document.getElementById('log');
+    
+    const closeBtn = document.getElementById('close'); 
+    
+    openModalBtn.addEventListener('click', function() {
+        modal.style.display = 'block';
+        console.log('Modal opened');
+    });
+    
+    closeBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+    
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+  }
+  modallog();
+  
+  
+  var swiper = new Swiper(".review-slider", {
+  spaceBetween: 10,
+  centeredSlides: true,
+  autoplay: {
+  delay: 2500,
+  disableOnInteraction: false,
+  },
+  loop:true,
+  breakpoints: {
+  0: {
+      slidesPerView: 1,
+  },
+  640: {
+    slidesPerView: 2,
+  },
+  768: {
+    slidesPerView: 2,
+  },
+  1024: {
+    slidesPerView: 3,
+  },
+  },
+  });
+</script>
+
+
+</body>
+</html>
